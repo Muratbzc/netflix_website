@@ -11,7 +11,8 @@ body {
 
 main {
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 1440px;
+  width: 100%;
+  /* width: 1440px; */
   height: 1096px;
   margin: auto;
 }
