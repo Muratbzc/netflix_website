@@ -13,14 +13,14 @@ main {
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 100%;
   /* width: 1440px; */
-  height: 1096px;
+  /* height: 1096px; */
   margin: auto;
 }
 
 #container {
   background-color: rgba(0, 0, 0, 0.3);
   margin: 30px 100px;
-  height: 1036px;
+  /* height: 1036px; */
 }
 
 #title {
@@ -51,8 +51,10 @@ span {
   margin-left: 370px;
   background-color: rgba(0, 0, 0, 0.8);
   color: white;
-  padding: 20px 40px 0;
-  height: 870px;
+  padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  /* height: 870px; */
   font-family: 'Roboto', sans-serif;
 
 }
@@ -70,6 +72,8 @@ span {
   height: 60px;
   font-size: 14px;
   margin-top: 5px;
+  padding: 12px 10px;
+
 }
 
 .content {
@@ -86,6 +90,8 @@ span {
   width: 100%;
   height: 60px;
   margin-top: 5px;
+  padding: 12px 10px;
+
 }
 
 .movie-type {
@@ -108,11 +114,12 @@ span {
   height: 90px;
   font-size: 14px;
   margin-top: 5px;
+  padding: 12px 10px;
 }
 
 .submit {
-  display: flex;
-  margin-top: 15px;
+  width: 124px;
+  margin: auto; 
 }
 
 .submit input {
@@ -122,5 +129,7 @@ span {
   background-color: red;
   color: white;
   font-size: 16px;
-  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  
 }
